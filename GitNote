@@ -16,3 +16,11 @@ git log test.py
 
 git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d test.py
 git commit -am 'test restore'
+
+first time commit to GitHub
+git remote add origin https://github.com/YL-Shih/test.git
+git push -u origin master
+
+Any time you make changes to your project, and you want to push them up to GitHub, you can just type:
+git push origin master
+git push origin <branch-name>
