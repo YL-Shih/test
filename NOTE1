@@ -1,0 +1,64 @@
+sudo apt update
+sudo apt full-upgrade
+
+sudo raspi-config
+
+luit -encoding big5 telnet ptt.cc
+ssh bbsu@ptt.cc
+
+apt-get update : Update is used to resynchronize the package index files from their sources on Ubuntu Linux via the Internet.
+apt-get upgrade : Upgrade is used to install the newest versions of all packages currently installed on the Ubuntu system.
+
+//=========================================
+find file in linux
+https://askubuntu.com/questions/621063/command-to-find-files-by-searching-only-part-of-their-names
+find . -iname '*CWPBD*'
+
+snap list
+/snap/bin/xxxxxxxx
+$ sudo snap remove xxxxxxxx
+
+experienced the same error coming from a snapd 'snap'. I went into the preload file mentioned
+sudo nano /etc/ld.so.preload
+and commented the offending line out from
+/usr/lib/arm-linux-gnueabihf/libarmmem.s
+to
+#/usr/lib/arm-linux-gnueabihf/libarmmem.so
+
+
+python/python3
+
+to end python
+Ctrl-z (Windows)
+Ctrl-d (linux)
+
+===remote access===
+https://pimylifeup.com/raspberry-pi-remote-desktop/
+
+https://raspberrytips.com/remote-desktop-raspberry-pi/#Remote_desktop_with_Teamviewer
+PH5R V4MC GXWX 717R
+ TeamViewer ID:                        749567606 
+
+===7zip===
+sudo apt install ./p7zip-rar_16.02-3_armhf.deb
+ 7z x filename.rar
+ 
+===Set environment var===
+ https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/#:~:text=In%20Linux%20and%20Unix%20based,name%20and%20an%20associated%20value.
+ 
+ALT+SPACE+M –Move Or Resize Your Current Window.
+CTRL + ALT + T – Open Terminal
+ALT + PRINT SCREEN – Take A Screenshot
+raspi-config: This command launches the setting menu on your Pi.
+
+git init
+ls -a
+ls -a .git
+
+git add README.md
+git add --all
+
+git status
+git commit -am "add README.md"
+git log test.py 
+
