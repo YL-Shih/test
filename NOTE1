@@ -51,7 +51,7 @@ CTRL + ALT + T – Open Terminal
 ALT + PRINT SCREEN – Take A Screenshot
 raspi-config: This command launches the setting menu on your Pi.
 
-===Git cmd===123
+===Git cmd===123 test again
 git init
 ls -a
 ls -a .git
