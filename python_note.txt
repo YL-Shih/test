@@ -1,0 +1,9 @@
+immutable: int float str tuple
+當a=3 b=a時, b跟a會指向不同的3的位置
+所以當a=2時 b仍等於3
+
+mutable: list
+當為mutable時,兩個變數會指向同一個記憶體位置
+a = [1,2,3] b=a b[0]=0
+a=[0,2,3]
+
