@@ -4,11 +4,11 @@ pop6********1
 https://projects.raspberrypi.org/en/projects/getting-started-with-git/
 
 git init
-ls -a
+ls -a        //to see all the hidden files and directories , Windows then type dir /A instead
 ls -a .git
 
-git add README.md
-git add --all
+git add README.md    //add single file
+git add --all        //add all files
 
 git status
 git commit -am "add README.md"
@@ -24,3 +24,8 @@ git push -u origin master
 Any time you make changes to your project, and you want to push them up to GitHub, you can just type:
 git push origin master
 git push origin <branch-name>
+
+VScode clone form git:
+1. Ctrl + shift + p
+2. Git: Clone
+3. paste url
